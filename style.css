@@ -1,4 +1,39 @@
+:root {
+display: inline-block;
+padding: 0.75rem 1.75rem;
+border-radius: 999px;
+background: var(--accent);
+color: white;
+text-decoration: none;
+font-weight: 600;
+}
 
+
+.features {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 2rem;
+margin-top: 4rem;
+}
+
+
+.features h3 {
+margin-bottom: 0.5rem;
+}
+
+
+.features p {
+color: var(--muted);
+}
+
+
+footer {
+padding: 2rem;
+text-align: center;
+color: var(--muted);
+border-top: 1px solid #e5e5e5;
+}
+```css
 * { box-sizing: border-box; }
 body {
 font-family: system-ui, sans-serif;
